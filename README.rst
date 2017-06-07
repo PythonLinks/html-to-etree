@@ -40,14 +40,16 @@ Quickstart
 ----------
 
 Parse HTML given as byte strings::
-    tree = parse_html_bytes(body=body_bytes, content_type=res.headers.get('content-type')
+
+    tree = parse_html_bytes(body=body_bytes, content_type=res.headers.get('content-type'))
 
 Parse HTML given as already decoded unicode string::
+
     tree = parse_html_unicode(uni_string=body_unicode)
 
 Credits
 -------
 
-This package was created with Cookiecutter_ and the `codinguncut/cookiecutter-pypackage`_ project template.
+This package was created with Cookiecutter_ and the `fluquid/cookiecutter-pypackage`_ project template.
 
 .. _Cookiecutter: https://github.com/audreyr/cookiecutter
