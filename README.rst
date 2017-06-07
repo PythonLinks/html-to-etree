@@ -19,7 +19,7 @@ html to etree
     :alt: Requirements Status
     :target: https://requires.io/github/codinguncut/html-to-etree/requirements/?branch=master
 
-parse html to etree
+parse html to lxml etree
 
 * Free software: BSD license
 * Python versions: 2.7, 3.4+
