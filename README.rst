@@ -8,16 +8,16 @@ html to etree
 .. image:: https://img.shields.io/pypi/pyversions/html-to-etree.svg
         :target: https://pypi.python.org/pypi/html-to-etree
 
-.. image:: https://img.shields.io/travis/codinguncut/html-to-etree.svg
-        :target: https://travis-ci.org/codinguncut/html-to-etree
+.. image:: https://img.shields.io/travis/fluquid/html-to-etree.svg
+        :target: https://travis-ci.org/fluquid/html-to-etree
 
-.. image:: https://codecov.io/github/codinguncut/html-to-etree/coverage.svg?branch=master
+.. image:: https://codecov.io/github/fluquid/html-to-etree/coverage.svg?branch=master
     :alt: Coverage Status
-    :target: https://codecov.io/github/codinguncut/html-to-etree
+    :target: https://codecov.io/github/fluquid/html-to-etree
 
-.. image:: https://requires.io/github/codinguncut/html-to-etree/requirements.svg?branch=master
+.. image:: https://requires.io/github/fluquid/html-to-etree/requirements.svg?branch=master
     :alt: Requirements Status
-    :target: https://requires.io/github/codinguncut/html-to-etree/requirements/?branch=master
+    :target: https://requires.io/github/fluquid/html-to-etree/requirements/?branch=master
 
 parse html to lxml etree
 
