@@ -19,10 +19,11 @@ html to etree
     :alt: Requirements Status
     :target: https://requires.io/github/fluquid/html-to-etree/requirements/?branch=master
 
-parse html to lxml etree
+Parse html to lxml etree
 
-convenience methods for parsing html documents to lxml etree.
-lxml has limited capabilities for handling different encodings, and this
+Convenience methods for parsing html documents to lxml etree.
+
+Lxml has limited capabilities for handling different encodings, and this
 library is intended as a reusable utility parsing byte-code html responses
 into ElementTrees using sane character decoding.
 
@@ -32,14 +33,17 @@ into ElementTrees using sane character decoding.
 Features
 --------
 
-* parse html to lxml etree
-* handle character decoding
+* Parse html to lxml etree
+* Handle character decoding
 
 Quickstart
 ----------
 
-* `tree = parse_html_bytes(body=body_bytes, content_type='text/html')`
-* `tree = parse_html_unicode(uni_string=body_unicode)`
+Parse HTML given as byte strings::
+    tree = parse_html_bytes(body=body_bytes, content_type=res.headers.get('content-type')
+
+Parse HTML given as already decoded unicode string::
+    tree = parse_html_unicode(uni_string=body_unicode)
 
 Credits
 -------
