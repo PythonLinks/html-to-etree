@@ -68,5 +68,5 @@ deploy:
     secure: PLEASE_REPLACE_ME
   on:
     tags: true
-    repo: codinguncut/html-to-etree
+    repo: fluquid/html-to-etree
     condition: $TOXENV == py27

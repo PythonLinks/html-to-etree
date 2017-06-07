@@ -21,6 +21,11 @@ html to etree
 
 parse html to lxml etree
 
+convenience methods for parsing html documents to lxml etree.
+lxml has limited capabilities for handling different encodings, and this
+library is intended as a reusable utility parsing byte-code html responses
+into ElementTrees using sane character decoding.
+
 * Free software: BSD license
 * Python versions: 2.7, 3.4+
 

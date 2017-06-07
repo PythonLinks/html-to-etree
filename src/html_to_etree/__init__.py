@@ -10,7 +10,7 @@ Notes:
 
 __author__ = 'Johannes Ahlmann'
 __email__ = 'johannes@fluquid.com'
-__version__ = '0.1.0'
+__version__ = '0.2.0'
 
 import lxml
 import lxml.etree
